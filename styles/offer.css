@@ -1,0 +1,11 @@
+.offer {
+    background: var(--color-dark-green);
+    padding: 139px 30px 150px 30px;
+}
+
+.offer__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 44px;
+}

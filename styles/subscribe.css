@@ -1,0 +1,52 @@
+.subscribe {
+    padding: 31px 30px;
+    height: 381px;
+}
+
+.subscribe__picture {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 320px;
+    background-image: url(../images/subsribe/background-subscribe.png);
+    border-radius: 30px;
+    padding: 0 80px 0 70px;
+}
+
+.subscribe__title {
+    width: 325px;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+}
+
+.subscribe__registr {
+    display: flex;
+    gap: 10px;
+}
+
+.subscribe__input {
+    padding: 26px 0 27px 30px;
+    width: 350px;
+    height: 82px;
+    border-radius: 16px;
+    border: 1px solid #CCC;
+}
+
+.subscribe__input::placeholder {
+    font-family: var(--font-family-OpenSans);
+    color: var(--color-dark-grey);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px; 
+    letter-spacing: 0.36px;
+}
+
+.subscribe__input:focus {
+    outline: none;
+    border-color: var(--color-dark-green);
+    caret-color: var(--color-dark-green);
+}

@@ -1,0 +1,60 @@
+.products {
+    padding: 122px 30px 120px 30px;
+}
+
+.products__heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.products__card-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+}
+
+.products__card {
+    width: 447px;
+    height: 590px;
+    border-radius: 30px;
+    background: #F9F8F8;
+    padding: 35px 30px;
+}
+
+.products__card-name {
+    font-size: 22px;
+    line-height: 35.2px;
+    letter-spacing: 0.36px;
+    margin-bottom: 11px;
+}
+
+.products__card-info {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #bdbdbd;
+    padding-top: 11px;
+
+}
+
+.products__price-block {
+    display: flex;
+    gap: 10px;
+}
+
+.products__price-past {
+    font-family: var(--font-family-OpenSans);
+    color: #B8B8B8;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32.4px;
+    letter-spacing: 0.36px;
+    text-decoration: line-through;
+}
+
+.products__price-current {
+    font-family: var(--font-family-OpenSans);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32.4px;
+    letter-spacing: 0.36px;
+}

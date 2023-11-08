@@ -1,0 +1,11 @@
+:root {
+    --color-dark-green:#274C5B;
+    --color-light-green:#7EB693;
+    --color-dark-grey:#525C60;
+    --color-light-grey:#F9F8F8;
+
+    --font-family-Roboto: 'Roboto', Arial, sans-serif;
+    --font-family-RobotoBlack: 'Roboto Black','Roboto', Arial, sans-serif;
+    --font-family-OpenSans: 'OpenSans', Arial, sans-serif;
+    --font-family-Yellowtail: 'Yellowtail', Arial, sans-serif;
+}

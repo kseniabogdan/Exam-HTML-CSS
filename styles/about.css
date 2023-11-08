@@ -1,0 +1,52 @@
+.about {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9F8F8;
+    padding: 130px 30px 150px 30px;
+}
+
+.about__img {
+    width: 675px;
+}
+
+.about__block {
+    width: 670px;
+}
+
+.about__title {
+    width: 521px;
+    margin-bottom: 22px;
+}
+
+.about__text {
+    margin: 0 0 56px 0;
+}
+
+.about__paragraph {
+    display: flex;
+    margin: 30px 16px 0 0;
+    gap: 20px;
+}
+.about__paragraph--margin {
+    margin-bottom: 45px;
+}
+
+.paragraph__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background: #FFF;
+}
+
+.about__paragraph-title {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+}
+

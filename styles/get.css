@@ -1,0 +1,26 @@
+.get {
+    display: flex;
+    justify-content: space-between;
+    padding: 140px 30px;
+}
+
+.get__block {
+    width: 665px;
+    height: 378px;
+    background-image: url(../images/get/pink-banana.png);
+    border-radius: 30px;
+    padding: 105px 0 105px 55px;
+}
+
+.get__block--background {
+    background-image: url(../images/get/grey-peach.png);
+}
+
+.get__title {
+    width: 264px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0.36px;
+}
+
